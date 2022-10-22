@@ -1,0 +1,281 @@
+@charset "utf-8";
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 1400px;
+    color: #222222;
+    background-color: #fafafa;
+    font-family: "Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+    font-size: 1.6rem;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+/* header */
+img#logo{
+    max-width: 30%;
+}
+.header{
+    background-color:khaki;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.nav-list{
+    display: flex;  
+}
+.nav-item{
+    margin: 0 50px 0 0;
+    font-size: 2.1rem;
+}
+.nav-item>a{
+    color: #222222;
+    text-transform: uppercase;
+}
+.nav-item:hover{
+    font-weight: bold;
+}
+
+/* mainvisual */
+img#mainbg{
+    width: 100%;
+    text-align: center;
+}
+.mainvisual{
+    position: relative;
+}
+.mainvisual-inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+}
+.mainvisual-title{ 
+    margin: 0 0 30px;
+    color: white;
+    font-size:4rem;
+    font-weight: bold;
+}
+.mainvisual-text{
+    color: white;
+    font-size: 2.4rem;
+}
+.text-center{
+    text-align: center;
+}
+
+/* about */
+.profile{
+    padding: 60px 0 0;
+}
+.wrapper{
+    max-width: 1400px;
+    margin: auto;
+}
+.entitle{
+    margin: 0 0 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #ffd61a;
+}
+.jptitle{
+    margin: 0 0 60px;
+    font-size: 1.8rem;
+}
+.text{
+    margin: 0 0 40px;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+.about__list{
+    display: flex;
+    margin: 20px 0 0;
+}
+.about__item{
+    width: 25%;
+}
+
+/* course */
+.course__title1{
+    margin: 0 0 40px 50px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.course__title2{
+    margin: 0 50px 40px 0;
+    max-width: 430px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.course__text1{
+    margin: 0 0 0 50px;
+    max-width: 430px;
+    line-height: 2;
+    font-size: 1.6rem;
+}
+.course__text2{
+    margin: 0 50px 0 0;
+    max-width: 430px;
+    line-height: 2;
+    font-size: 1.6rem;
+}
+.course__list{
+    display: flex;
+    margin: auto;
+    background-color: beige;
+}
+.course__item{
+    width:50%
+}
+.coursetext1{
+    margin: auto;
+}
+.coursetext2{
+    margin: auto;
+    max-width: 480px;
+}
+/* news */
+.news-wrapper{
+    max-width: 960px;
+    margin: auto;
+}
+.news__list{
+    display: flex;
+    margin: 0 0 60px;
+}
+.news__item{
+    width: 33.333%;
+}
+.news__column{
+    margin: 0 15px;
+    width: 300px;
+}
+.news__date{
+    margin: 30px 0 24px;
+}
+.news__text{
+    line-height: 2;
+}
+.btn{
+    display: block;
+    width: 300px;
+    height: 60px;
+    margin: auto;
+    background-color: #ffd61a;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+    text-decoration-line: none;
+}
+.btn-more{
+    margin: 60px auto;
+}
+.btn:hover{
+    background-color: yellow;
+    color: yellowgreen;
+    font-size: 2.4rem;
+}
+
+/* access */
+.map{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 0 0 60px;
+}
+.table{
+   margin: 0 auto; 
+   line-height: 3;
+}
+.table-item{
+    padding: 0 0 0 30px;
+}
+#access{
+    background-color: beige;
+}
+
+/* contact */
+.form-wrapper{
+    max-width: 640px;
+    margin: auto;
+}
+.form-inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-title{
+    width: 176px;
+    margin: 0 64px 0 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.form-title.checkbox{
+    padding: 0;
+}
+.form-item{
+    width: 400px;
+    margin: 8px 0 8px;
+}
+.form-item.checktext{
+    line-height: 1.5;
+}
+.form-parts{
+    appearance: none;
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    border: solid 1px #bfbfbf;
+    font-size: 1.6rem;
+}
+.form-label{
+    margin: 0 16px 0 0;
+    font-size: 1.4rem;
+}
+input[type*="radio"]{
+    appearance: none;
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    margin: 0 10px 0 0;
+    border: solid 1px #a0a0a0;
+    border-radius: 25%;
+    vertical-align: -2px;
+}
+input[type*="radio"]:checked{
+    background-color: #a0a0a0;
+}
+.container{
+    width: 400px;
+    height: 36.6px;
+    margin: auto;
+    font-size: 1.6rem;
+}
+.btn-submit{
+    appearance: none;
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    border: none;
+    margin: 30px auto 140px;
+}
+/* footer */
+.footer{
+    padding: 30px 0;
+    background-color: #707070;
+}
+.copyrights{
+    color: #fff;
+}
